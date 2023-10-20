@@ -145,15 +145,5 @@ export default {
       }
     }
   }
-
-  .btn-custom {
-    padding: 15px 30px;
-    background-color: $orange;
-    border-radius: 25px;
-    cursor: pointer;
-    border: none;
-    color: $white;
-    font-size: 1.3rem;
-  }
 }
 </style>
