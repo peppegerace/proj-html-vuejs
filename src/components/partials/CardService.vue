@@ -63,8 +63,11 @@ export default {
     margin-bottom: 20px;
   }
 
+  p {
+    line-height: 24px;
+  }
+
   a {
-    // width: 20px;
     padding: 15px 20px;
     border-radius: 50%;
     background-color: $yellow;
