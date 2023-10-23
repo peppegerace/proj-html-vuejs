@@ -2,13 +2,15 @@
 import AboutUs from './partials/AboutUs.vue';
 import Service from './partials/Service.vue';
 import ChooseUs from './partials/ChooseUs.vue';
+import Review from './partials/Review.vue';
 
 export default {
   name: 'Main',
   components: {
     AboutUs,
     Service,
-    ChooseUs
+    ChooseUs,
+    Review
   }
 }
 </script>
@@ -18,38 +20,10 @@ export default {
   
   <main>
 
-    <!-- <section class="about-us">
-      
-      <div class="container">
-        <div class="row">
-
-          <div class="col">
-            <img src="../../img/about.png" alt="">
-          </div>
-
-          <div class="col">
-            <div class="small-title">
-              <img src="../../img/dog-icon.png" alt="">
-              <span>About Us</span>
-            </div>
-            <h2>Welcome DogMilo Pets</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, eaque, non tempore perferendis dicta at accusamus ipsum dolore quisquam quo quis a, ad voluptates explicabo soluta amet aliquam doloribus rem!</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, eaque, non tempore perferendis dicta at accusamus ipsum dolore quisquam quo quis a, ad voluptates explicabo soluta amet aliquam doloribus rem!</p>
-          </div>
-
-        </div>
-      </div>
-      
-    </section> -->
-
     <AboutUs />
     <Service />
     <ChooseUs />
-
-
-    <section class="review">
-      
-    </section>
+    <Review />
 
   </main>
 

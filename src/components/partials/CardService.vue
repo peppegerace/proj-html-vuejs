@@ -39,11 +39,10 @@ export default {
 }
 
 .card {
-  // width: calc(100% / 5 - 40px);
+  margin: 0 auto;
   width: 85%;
   background-color: $orange;
   color: $white;
-  // height: 300px;    
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
   border-bottom-left-radius: 100px;
@@ -52,6 +51,10 @@ export default {
   display: flex;
   align-items: center;
   flex-direction: column;
+  
+  &:hover {
+    background-color: $green !important;
+  }
 
   img {
     width: 60px;
