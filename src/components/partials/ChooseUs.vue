@@ -110,18 +110,20 @@ export default {
     }
 
     .li-mid {
+      width: 80%;
       position: relative;
       left: 20%;
       .text {
-        width: 58%;
+        width: 60%;
       }
     }
 
     .li-end {
+      width: 60%;
       position: relative;
       left: 40%;
       .text {
-        width: 37%;
+        width: 60%;
       }
     }
     
