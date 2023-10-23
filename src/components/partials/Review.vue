@@ -84,8 +84,6 @@ export default {
 
             <p>It is a long established fact that a reader will be distructed by the readable content of a page when looking at its layout.</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo obcaecati ratione similique maxime qui ducimus, eum minus explicabo soluta adipisci.</p>
-
             <div class="rating">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -128,7 +126,7 @@ export default {
 @use '../../scss/main.scss' as *;
 
 .review {
-  padding: 80px 0;
+  padding: 80px 0 0 0;
 
   .col {
     width: 33%;

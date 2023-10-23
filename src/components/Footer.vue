@@ -194,6 +194,10 @@ footer {
   .col {
     width: calc(100% / 5);
     padding: 0 20px;
+
+    span {
+      line-height: 24px;
+    }
   }
 
   nav {

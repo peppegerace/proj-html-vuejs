@@ -3,6 +3,7 @@ import AboutUs from './partials/AboutUs.vue';
 import Service from './partials/Service.vue';
 import ChooseUs from './partials/ChooseUs.vue';
 import Review from './partials/Review.vue';
+import Subscribe from './partials/Subscribe.vue';
 
 export default {
   name: 'Main',
@@ -10,7 +11,8 @@ export default {
     AboutUs,
     Service,
     ChooseUs,
-    Review
+    Review,
+    Subscribe
   }
 }
 </script>
@@ -24,6 +26,7 @@ export default {
     <Service />
     <ChooseUs />
     <Review />
+    <Subscribe />
 
   </main>
 
