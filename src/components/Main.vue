@@ -1,12 +1,14 @@
 <script>
 import AboutUs from './partials/AboutUs.vue';
 import Service from './partials/Service.vue';
+import ChooseUs from './partials/ChooseUs.vue';
 
 export default {
   name: 'Main',
   components: {
     AboutUs,
-    Service
+    Service,
+    ChooseUs
   }
 }
 </script>
@@ -42,11 +44,7 @@ export default {
 
     <AboutUs />
     <Service />
-   
-
-    <section class="choose-us">
-      
-    </section>
+    <ChooseUs />
 
 
     <section class="review">

@@ -23,6 +23,7 @@ export default {
         <i class="fa-solid fa-chevron-right"></i>
       </a>
     </div>
+    
 
   </div>
 
@@ -42,7 +43,7 @@ export default {
   width: 85%;
   background-color: $orange;
   color: $white;
-  height: 300px;    
+  // height: 300px;    
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
   border-bottom-left-radius: 100px;
